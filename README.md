@@ -77,6 +77,7 @@ In DVE:
 ●	Confirm that count wraps from 1111 back to 0000 after the 16th enabled clock edge (overflow).
 
 ●	Confirm that count resets to 0000 immediately whenever rst = 1, independent of clk.
+
 The waveform should agree with the state transition table.
 
 ## Expected Result
